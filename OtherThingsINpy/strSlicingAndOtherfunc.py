@@ -1,0 +1,21 @@
+mystr = "hey its me nikhil"
+# string slicing
+print("1",mystr)
+print("2",mystr[4])
+print("3",mystr[5])
+print("4",mystr[0:6])
+print("5",len(mystr))
+print("6",mystr[:5])
+print("7",mystr[5:])
+print("8",mystr[0::5])
+print("9",mystr[-4:-2])
+print("10",mystr[::-2])
+# diff string functions
+print("11",mystr.isalnum())
+print("12",mystr.isalpha())
+print("13",mystr.endswith("il"))
+print("14",mystr.count("i"))
+print("15",mystr.capitalize())
+print("16",mystr.lower())
+print("17",mystr.upper())
+print("18",mystr.replace("me","Me"))

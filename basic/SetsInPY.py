@@ -1,0 +1,11 @@
+s = set()
+print(type(s))
+s_from_list = set([9,123,5,6,7])
+print(s_from_list)
+s_from_list.add(21)
+s_from_list.add(5600)
+print(s_from_list)
+print(s_from_list.union({1,2,5,6,7}))
+print(s_from_list.intersection({1,2,5,6,7}))
+print(s_from_list.isdisjoint({4,5,8}))
+
