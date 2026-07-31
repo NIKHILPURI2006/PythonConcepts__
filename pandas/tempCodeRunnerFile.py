@@ -1,1 +1,1 @@
-
+ipl['WinningTeam']=='Chennai Super Kings'

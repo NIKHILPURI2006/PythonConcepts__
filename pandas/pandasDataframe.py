@@ -70,3 +70,29 @@ print(movies.duplicated().sum())
 # rename
 student.rename(columns={'package':'lpa'},inplace=True)
 print(student)
+
+# ===========Selecting columns from a dataframe==========
+
+# single cols
+print(ipl['Venue'])
+print(movies['imdb_id'])
+
+# multiple cols
+print(movies[['title_x','actors','year_of_release']])
+print(ipl[['Team1','Team2','WinningTeam']])
+
+# ==========Selecting rows from a dataframe===============
+
+# using iloc (for single column)
+print(movies.iloc[5])
+
+# using iloc (for multiple cols)
+print(movies.iloc[[0,4,5]])
+print(movies.iloc[5:16])
+
+# using loc 
+# same as iloc only takes index value rather than its position
+
+# ============Selecting both rows and cols==============
+print(movies.iloc[0:3,0:3])
+
